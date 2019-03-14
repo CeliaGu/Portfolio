@@ -319,3 +319,16 @@ figure:hover+span {
   margin-left: 30rem;
   margin-top: 30rem;
 }
+
+footer {
+  width: 100%;
+  position: absolute;
+  margin: auto;
+  padding: 3rem 0 0 0;
+  text-align: center;
+}
+
+footer p {
+  text-decoration: none;
+  font-size: 0.8em;
+}
