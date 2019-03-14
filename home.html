@@ -4,45 +4,68 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normal.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/grid.css">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
   <title>Celia Gu</title>
+</head>
 
   <script
   src="http://code.jquery.com/jquery-3.3.1.js"
   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
   crossorigin="anonymous"></script>
-</head>
 
 
 
 <body>
-  <section>
-    <nav>
-      <div></div>
-      <ul>
-        <li data-xcoord="0px" class="active">Home</li>
-        <li data-xcoord="160px">About</li>
-        <li data-xcoord="320px">Contact</li>
-        <li data-xcoord="480px">Store</li>
-      </ul>
-    </nav>
-  </section>
+  <header>
+
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="home.html">Home</a>
+        <a href="project1.html">Project</a>
+        <a href="about.html">About me</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+    <span class="nav-button" style="font-size:50px;cursor:pointer" onclick="openNav()"> &#9776; </span>
+  </header>
+  <!-- <section> -->
+  <!-- <nav>
+  <ul>
+  <li data-xcoord="0px" class="active"><a href="home.html">Home</a></li>
+  <li data-xcoord="160px"><a href="project1.html">Porject</a></li>
+  <li data-xcoord="320px"><a href="about.html">About</a></li>
+  <li data-xcoord="480px">Contact</li>
+</ul>
+</nav> -->
+<!-- </section> -->
 
 
 
-  <!-- https://codepen.io/lauraalpinto/pen/BbpmmZ -->
-  <div class="frame">
-    <div class="top"><span>Celia Gu</span></div>
-    <div class="bottom"><span>Celia Gu</span></div>
-    <!-- <div class="bottom"><span>A PASSIONATE DESIGNER</span></div> -->
+<!-- https://codepen.io/lauraalpinto/pen/BbpmmZ -->
+<div class="frame">
+<div class="top"><span>Celia Gu</span></div>
+<div class="bottom"><span>Celia Gu</span></div>
 
-  </div>
-
-  <div class="intro">
-    <p>A PASSIONATE DESIGNER</p>
-
-  </div>
+</div>
 
 
-  <script src="js/main.js"></script>
+<script src="js/main.js"></script>
+<script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+    </script>
 </body>
 </html>

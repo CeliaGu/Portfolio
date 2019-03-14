@@ -1,30 +1,12 @@
-* {
-  margin: 0;
-  box-sizing: border-box;
-  padding: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-body {
-  background: #efefec;
-  font-family: "Raleway", sans-serif;
-  text-align: center;
-}
-
-
-
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
 .frame {
   position: absolute;
-  /* top: 50%; */
-  /* left: 50%; */
-  width: 100%;
-  height: 100%;
-  margin-top: -60px;
-  align-items: center;
-  margin-left: relative;
-  margin-right: relative;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
   border-radius: 2px;
   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -43,70 +25,22 @@ body {
 }
 .frame > div > span {
   position: absolute;
-  top: 300px;
+  top: 200px;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
 
 .bottom {
-  background: #9bd8d9;
+  background: #453886;
   height: 100%;
 }
 
 .top {
   height: 50%;
-  background: #00b7af;
+  background: #6a5ea7;
   z-index: 3;
   overflow: hidden;
   color: transparent;
   text-shadow: 0 0 8px white;
-}
-
-
-/* stylying for nav */
-section{
-  position:relative;
-  width:640px;
-  margin:50px auto;
-}
-nav{
-  width:100%;
-}
-nav ul li{
-  display:inline-block;
-  list-style:none;
-  width:160px;
-  text-align:center;
-  font-family:Helvetica, sans-serif;
-  border: 1px dashed rgba(255,255,255, 0);
-  color:#5c5d5f;
-  padding:10px 0 10px 0;
-  margin:-1px -5px -1px -1px;
-  cursor:pointer;
-  transition:all .2s;
-  -webkit-transition:all .2s;
-}
-nav ul li:hover{
-  /*border:1px dashed #fff;*/
-  background:#d5d5cd;
-}
-nav ul{
-  border: 1px solid #00b7af;
-  position:absolute;
-  width:100%;
-  padding:0;
-  z-index:100;
-}
-nav div{
-  position:absolute;
-  left:0;
-  /* top:16px; */
-  background: #fff;
-  width:162px;
-  height:40px;
-  z-index:99;
-}
-.active{
-  color:rgba(55, 186, 177, 1);
 }
