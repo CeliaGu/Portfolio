@@ -10,9 +10,10 @@
   border-radius: 2px;
   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  background: white;
+  /* background: white; */
   font-family: 'Montserrat', Helvetica, sans-serif;
   color: white;
+  text-align: center;
   font-size: 4rem;
   font-weight: 700;
   -webkit-font-smoothing: antialiased;
@@ -32,13 +33,13 @@
 }
 
 .bottom {
-  background: #453886;
+  background: #74ae9f;
   height: 100%;
 }
 
 .top {
   height: 50%;
-  background: #6a5ea7;
+  background: #aaceca;
   z-index: 3;
   overflow: hidden;
   color: transparent;

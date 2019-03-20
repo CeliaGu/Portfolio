@@ -2,9 +2,8 @@
 
 body {
   font-family:'Raleway', Verdana, Arial, Helvetica, sans-serif;
-  background: #dadad2;
-
-    padding: 2rem;
+  background: #edefee;
+  padding: 2rem;
 
 }
 
@@ -18,12 +17,13 @@ p {
 }
 a, a:visited{
   text-decoration: none;
-  border-bottom: 1px solid blue;
-  color: #453886;
+  border-bottom: 1px solid ;
+  border-bottom-color: #aaceca;
+  color: #aaceca;
 }
 
 a:hover {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  /* background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23453886' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E"); */
   background-position: bottom;
   background-repeat: repeat-x;
   background-size: 20%;
@@ -108,8 +108,6 @@ nav{
   margin-top: : 3rem;
 }
 
-
-
 nav a{
   margin-left: 3rem;
 }
@@ -124,7 +122,6 @@ code {
   padding: 0.5rem;
   display: block;
 }
-
 
 section{
    margin-bottom: 100px;
@@ -193,17 +190,6 @@ figure:hover+span {
 }
 
 
-.home-img img{
-  position:fixed;
-  bottom: 0%;
-  left: 50%;
-  width: 55rem;
-  transform: rotate(0deg);
-  transform-origin: bottom right;
-  z-index: -2;
-}
-
-
 
 /* from here */
 .overlay {
@@ -213,8 +199,7 @@ figure:hover+span {
   z-index: 9999;
   top: 0;
   left: 0;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0, 0.9);
+  background-color: rgba(108,108,100, 0.95);
   overflow-x: hidden;
   transition: 0.5s;
 }
@@ -236,7 +221,7 @@ figure:hover+span {
   padding: 8px;
   text-decoration: none;
   font-size: 36px;
-  color: #818181;
+  color: #d6e1dd;
   display: block;
   transition: 0.3s;
 }
@@ -247,8 +232,7 @@ figure:hover+span {
 
 .overlay .closebtn {
   position: absolute;
-  top: 20px;
-  right: 45px;
+  right: 15px;
   font-size: 60px;
 }
 
@@ -268,51 +252,15 @@ figure:hover+span {
   padding: 1rem;
 }
 /* to here */
-.name{
-  position:fixed;
-  margin-top: 50rem;
-  transform-origin:top left;
-  transform: rotate(-90deg);
-  width: 70rem;
-}
 
-.home-bio{
+
+.about{
   position: relative;
   max-width: 30rem;
   padding-top: 20rem;
   margin-left: 30rem;
   z-index: 0;
 }
-
-.logo{
-  position: fixed;
-  top: 20%;
-  left: 50%;
-  z-index: 1;
-
-}
-.logo a:hover{
-  background-image: none;
-}
-.logo a {
-  border-bottom: 0;
-}
-.logo img{
-  top: 30%;
-  left: 30%;
-  width: 8rem;
-  margin:-60px 0 0 -60px;
-}
-.logo img:hover{
-  width: 8rem;
-  margin:-60px 0 0 -60px;
-  -webkit-animation:spin 4s linear infinite;
-  -moz-animation:spin 4s linear infinite;
-  animation:spin 4s linear infinite;
-}
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
 .project-nav{
   display: block;
