@@ -80,6 +80,7 @@ h2 {
 }
 
 h3 {
+  border-bottom: 1px solid;
   font-family: 'Poppins';
   color:#84c4b4;
   font-size: 2rem;
@@ -168,19 +169,17 @@ section{
 
 
 figure {
-	width: 70%;
-
 	margin: 0;
-	padding: 0;
-	background: #fff;
+	padding-left: 1.5rem;
+  padding-right: 1.5rem;
 	overflow: hidden;
 }
-figure:hover+span {
+/* figure:hover+span {
 	bottom: -36px;
 	opacity: 1;
-}
+} */
 
-.hover02 figure img {
+/* .hover02 figure img {
 	width: 60%;
 	height: auto;
 	-webkit-transition: .3s ease-in-out;
@@ -188,7 +187,7 @@ figure:hover+span {
 }
 .hover02 figure:hover img {
 	width: 70%;
-}
+} */
 
 
 
@@ -247,7 +246,7 @@ figure:hover+span {
 }
 
 .nav-button{
-  position: fixed;
+  position: absolute;
   right: 0;
   top: 0;
   padding: 1rem;
@@ -259,16 +258,21 @@ figure:hover+span {
 .about{
   position: relative;
   max-width: 30rem;
-  padding-top: 20rem;
-  margin-left: 30rem;
-  z-index: 0;
+  padding-top: 6rem;
+  /* margin-left: 30rem; */
+  margin: auto;
+  /* z-index: 0; */
+}
+
+.intro {
+  margin: 3rem;
 }
 
 /* Stylying for project nav  */
 .project-nav{
   display: block;
   margin-left: 35%;
-  margin-top: 30%;
+  margin-top: 20%;
 }
 
 footer {
