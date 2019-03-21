@@ -14,6 +14,7 @@ p {
   max-width: 50rem;
   color: #453886;
   margin-bottom: 2em;
+  margin: auto;
 }
 a, a:visited{
   text-decoration: none;
@@ -174,21 +175,6 @@ figure {
   padding-right: 1.5rem;
 	overflow: hidden;
 }
-/* figure:hover+span {
-	bottom: -36px;
-	opacity: 1;
-} */
-
-/* .hover02 figure img {
-	width: 60%;
-	height: auto;
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-.hover02 figure:hover img {
-	width: 70%;
-} */
-
 
 
 /* from here */
@@ -245,6 +231,30 @@ figure {
   }
 }
 
+.home {
+  width: 100%;
+  /* display: flex; */
+  flex-wrap: wrap;
+  background-color: #aaceca;
+  /* height: 100vh; */
+  position: relative;
+  padding-bottom: 6rem;
+
+  /* padding-top: 8rem; */
+}
+
+
+.home h3 {
+  color: white;
+  text-align: center;
+  border-bottom: none;
+  padding-top: 2rem;
+}
+
+.home p {
+  padding-left: 1.5rem;
+}
+
 .nav-button{
   position: absolute;
   right: 0;
@@ -271,13 +281,25 @@ figure {
 /* Stylying for project nav  */
 .project-nav{
   display: block;
-  margin-left: 35%;
-  margin-top: 20%;
+  margin-left: 30%;
+  /* margin-top: 20%; */
+  padding-top: 20%;
+}
+
+.project-nav h2:hover {
+  border-bottom: none;
+  border-top: none;
+}
+
+.home .container1:hover {
+ text-decoration: underline;
+ transform: scale(1.05);
+ transition-duration: 0.5s;
 }
 
 footer {
   width: 100%;
-  position: absolute;
+  position: inherit;
   margin: auto;
   padding: 3rem 0 0 0;
   text-align: center;

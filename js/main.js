@@ -15,5 +15,5 @@ $(".frame").mouseenter(function() {
 //If mouse leaves frame
 $(".frame").mouseleave(function() {
 	// Return to Middle
-	$('.top').animate({height:'200px'}, 500);
+	$('.top').animate({height:'100px'}, 500);
 });
