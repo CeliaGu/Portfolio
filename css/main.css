@@ -3,7 +3,7 @@
 body {
   font-family:'Raleway', Verdana, Arial, Helvetica, sans-serif;
   background: #edefee;
-  padding: 2rem;
+  /* padding: 2rem; */
 
 }
 
@@ -69,18 +69,19 @@ input:hover, input:focus {
 }
 
 h2 {
-  border-top: 1px solid blue;
-  border-bottom: 1px solid blue;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: #949590
   font-family: 'Poppins';
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-top: 1rem;
-  color: #453886;
+  color: #85c5b5;
   font-weight: 600;
 }
 
 h3 {
   font-family: 'Poppins';
-  color:blue;
+  color:#84c4b4;
   font-size: 2rem;
   line-height: 4rem;
   font-weight: 600;
@@ -250,6 +251,7 @@ figure:hover+span {
   right: 0;
   top: 0;
   padding: 1rem;
+  z-index: 9;
 }
 /* to here */
 
@@ -262,10 +264,11 @@ figure:hover+span {
   z-index: 0;
 }
 
+/* Stylying for project nav  */
 .project-nav{
   display: block;
-  margin-left: 30rem;
-  margin-top: 30rem;
+  margin-left: 35%;
+  margin-top: 30%;
 }
 
 footer {
