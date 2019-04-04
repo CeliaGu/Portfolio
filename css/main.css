@@ -7,6 +7,21 @@ body {
 
 }
 
+/* Stylying for style guide */
+.element p {
+  margin: 1rem;
+}
+.style {
+  padding: 2rem;
+}
+.element img {
+  max-width: 40%;
+  height: auto;
+}
+.grid a, .element a{
+  margin-left: 0;
+}
+
 p {
   line-height: 2.5em;
   font-weight: 400;
@@ -15,6 +30,8 @@ p {
   color: #453886;
   margin-bottom: 2em;
   margin: auto;
+  word-break: break-word;
+
 }
 a, a:visited{
   text-decoration: none;
@@ -72,7 +89,7 @@ input:hover, input:focus {
 h2 {
   border-top: 1px solid;
   border-bottom: 1px solid;
-  border-color: #949590
+  border-color: #85c5b5;
   font-family: 'Poppins';
   font-size: 2.5rem;
   margin-top: 1rem;
@@ -108,7 +125,7 @@ nav{
   /* text-align: center; */
   font-size: 2rem;
   font-weight: 600;
-  margin-top: : 3rem;
+  margin-top: 3rem;
 }
 
 nav a{
@@ -124,6 +141,7 @@ code {
   background-color: #EEE;
   padding: 0.5rem;
   display: block;
+  word-break: break-word;
 }
 
 section{
@@ -361,7 +379,7 @@ a:hover h2 {
   height: auto;
   align-items: center;
   position: absolute;
-  top: 40%;
+  top: 55%;
   }
 
   .material img{
@@ -371,7 +389,7 @@ a:hover h2 {
   height: auto;
   left: 10%;
   position:absolute;
-  top:40%;
+  top:55%;
   }
 
   a:hover img{

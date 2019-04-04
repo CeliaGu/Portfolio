@@ -19,8 +19,8 @@
 }
 
 .container1 {
-  flex: 1.5;
-  min-width: 28rem;
+  flex: 1;
+  min-width: 26rem;
   /* margin: 0; */
 }
 
@@ -33,7 +33,7 @@ img {
 
 .container2 {
   flex:1;
-  min-width: 25rem;
+  min-width: 23rem;
   margin: 0;
 }
 
