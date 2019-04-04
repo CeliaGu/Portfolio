@@ -21,6 +21,8 @@
 .container1 {
   flex: 1;
   min-width: 26rem;
+  max-width: 36rem;
+  margin: auto;
   /* margin: 0; */
 }
 
@@ -34,7 +36,7 @@ img {
 .container2 {
   flex:1;
   min-width: 23rem;
-  margin: 0;
+  margin: auto;
 }
 
 .content {
