@@ -1,9 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
 
+/* Stylying for home page's square element */
+
+
 .start {
   position: relative;
-  /* background-color: grey; */
-  /* width: 100vw; */
   height: 100vh;
 }
 
@@ -19,7 +20,6 @@
   border-radius: 2px;
   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  /* background: white; */
   font-family: 'Montserrat', Helvetica, sans-serif;
   color: white;
   text-align: center;

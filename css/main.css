@@ -3,8 +3,6 @@
 body {
   font-family:'Raleway', Verdana, Arial, Helvetica, sans-serif;
   background: #edefee;
-  /* padding: 2rem; */
-
 }
 
 /* Stylying for style guide */
@@ -70,7 +68,7 @@ li{
 form {
   display: block;
 }
-
+/* Stylying for style guide */
 .element {
   padding-bottom: 2rem;
   border-top-width: 0.3rem;
@@ -98,11 +96,6 @@ h1 {
   font-weight: 600;
 }
 
-.home h1 {
-  text-align: center;
-  padding-top: 2rem;
-  color: #edefee;
-}
 h4 {
   font-family: 'Poppins';
   font-size: 1.5rem;
@@ -116,10 +109,9 @@ h5{
   font-weight: 600;
 }
 
-
+/* Stylying for navigation */
 nav{
   width: 100%;
-  /* text-align: center; */
   font-size: 2rem;
   font-weight: 600;
   margin-top: 3rem;
@@ -134,6 +126,7 @@ nav a:hover, nav a:focus {
   display: inline-block;
 }
 
+/* Stylying for style guide's code section */
 code {
   background-color: #EEE;
   padding: 0.5rem;
@@ -145,6 +138,7 @@ section{
    margin-bottom: 100px;
 }
 
+/* Stylying for button */
 .button {
   background-color: #453886;
   border: none;
@@ -183,7 +177,7 @@ section{
   right: 0;
 }
 
-
+/* Stylying for images */
 figure {
 	margin: 0;
 	padding-left: 1.5rem;
@@ -192,7 +186,7 @@ figure {
 }
 
 
-/* from here */
+/* Stylying for hamburger menu */
 .overlay {
   height: 100%;
   width: 0;
@@ -246,20 +240,16 @@ figure {
   }
 }
 
+/* Stylying for home page */
 .home {
   width: 100%;
-  /* display: flex; */
   flex-wrap: wrap;
   background-color: #aaceca;
-  /* height: 100vh; */
   position: relative;
   padding-bottom: 6rem;
-
-  /* padding-top: 8rem; */
 }
 
-
-.home h3 {
+.home h1 {
   color: white;
   text-align: center;
   border-bottom: none;
@@ -268,6 +258,7 @@ figure {
 
 .home p {
   padding-left: 1.5rem;
+  color: white;
 }
 
 .nav-button{
@@ -277,16 +268,14 @@ figure {
   padding: 1rem;
   z-index: 9;
 }
-/* to here */
+/* Stylying of hamburger menu ends here */
 
-
+/* Stylying for about page */
 .about{
   position: relative;
   max-width: 30rem;
   padding-top: 6rem;
-  /* margin-left: 30rem; */
   margin: auto;
-  /* z-index: 0; */
 }
 
 .intro {
@@ -297,7 +286,6 @@ figure {
 .project-nav{
   display: block;
   margin-left: 30%;
-  /* margin-top: 20%; */
   padding-top: 30%;
 }
 
@@ -308,19 +296,24 @@ figure {
 
 .project-nav a{
   border-bottom: none;
-
 }
 
+/* Stylying for home page's image animation */
 .home .container1 {
   transform: scale(0.9);
+  color: white;
 }
 
-.home .container1:hover {
+.home .container1:hover, .home .container1:focus {
  text-decoration: underline;
+ color: white;
  transform: scale(1);
  transition-duration: 0.5s;
+
+
 }
 
+/* Stylying for footer */
 footer {
   width: 100%;
   position: inherit;
@@ -338,6 +331,7 @@ footer p {
   font-size: 0.8em;
 }
 
+/* animation of images */
 @keyframes image {
   0% {
     opacity: 0
@@ -346,11 +340,11 @@ footer p {
     opacity: 1;
   }
 }
-
 .container img {
   animation: image 2s linear;
 }
 
+/* Stylying for project page's image */
 .web img{
 opacity: 0;
 width: 30%;
@@ -360,7 +354,6 @@ left: 10%;
 position: absolute;
 top: 5%;
 }
-
 .material img{
 opacity: 0;
 width: 30%;
@@ -380,6 +373,15 @@ a:hover h2 {
   border: none;
 }
 
+/* Stylying for citation page */
+.citation h1{
+text-align: center;
+}
+ul {
+  margin: auto;
+}
+
+/* Responsive media query */
 @media (max-width: 820px) {
   .web img{
   opacity: 0;
