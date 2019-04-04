@@ -8,8 +8,8 @@ body {
 }
 
 /* Stylying for style guide */
-.element p {
-  margin: 1rem;
+.element p , #combined_elements p{
+  margin-left: 1rem;
 }
 .style {
   padding: 2rem;
@@ -20,6 +20,13 @@ body {
 }
 .grid a, .element a{
   margin-left: 0;
+  margin-right: 2rem;
+
+}
+.grid {
+  /* margin-top: 1rem; */
+    display: flex;
+    flex-wrap: wrap;
 }
 
 p {
@@ -51,16 +58,18 @@ a:hover {
 }
 
 code, ol, ul {
-  max-width: 70rem;
+  max-width: 60rem;
 }
 
 
 li{
   font-family: 'Poppins';
-  font-size: 2rem;
+  font-size: 1rem;
   margin-top: 1rem;
   color: #453886;
-  font-weight: 500;
+  /* font-weight: 500; */
+  list-style: none;
+
 }
 
 form {
@@ -81,7 +90,7 @@ input:hover, input:focus {
 
 .element {
   padding-bottom: 2rem;
-  border-top-width: 0.01rem;
+  border-top-width: 0.3rem;
   border-top-style: solid;
   border-top-color: black;
 }
@@ -91,17 +100,17 @@ h2 {
   border-bottom: 1px solid;
   border-color: #85c5b5;
   font-family: 'Poppins';
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-top: 1rem;
   color: #85c5b5;
   font-weight: 600;
 }
 
-h3 {
+h1 {
   border-bottom: 1px solid;
   font-family: 'Poppins';
   color:#84c4b4;
-  font-size: 2rem;
+  font-size: 2.5rem;
   line-height: 4rem;
   font-weight: 600;
 }
@@ -341,6 +350,18 @@ footer p {
   font-size: 0.8em;
 }
 
+@keyframes image {
+  0% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.container img {
+  animation: image 2s linear;
+}
 
 .web img{
 opacity: 0;

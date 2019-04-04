@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Celia Gu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+  <header>
+
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="home.html">Home</a>
+        <a href="project1.html">Project</a>
+        <a href="about.html">About me</a>
+
+      </div>
+    </div>
+    <span class="nav-button" style="font-size:50px;cursor:pointer" onclick="openNav()">&#9776; </span>
+  </header>
+
+  <div>
+    <section>
+      <h1>Citations</h1>
+      <ul>
+        <p>INFO retrieved from https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_nav</p>
+
+        <!-- https://codepen.io/lauraalpinto/pen/BbpmmZ -->
+        <li>2018 Colour & Decor Trends. (n.d.). Retrieved from <a href="https://www.dulux.ca/diy/colour/2018-dulux-trends">https://www.dulux.ca/diy/colour/2018-dulux-trends</a>.</li>
+        <li>Google Fonts. (n.d.). Retrieved from <a href="https://fonts.google.com/specimen/Thasadith">https://fonts.google.com/specimen/Thasadith</a>.</li>
+      </ul>
+    </section>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script>
+  function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+  }
+
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+  }
+  </script>
+
+</body>
+</html>
